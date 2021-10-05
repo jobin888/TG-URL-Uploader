@@ -46,7 +46,7 @@ Expires on: 31/12/2021"""
    🎥Video  - Give File as video without Screenshots
    📁DFile  - Give File without Screenshots
    
-<b>👉 Thanks for support:</b> 👉 <a href="t.me/uploadbot</a>
+<b>👉 Thanks for support:</b> 👉 t.me/uploadbot""
 
 --------
 Send /me to know current plan details
