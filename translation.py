@@ -7,7 +7,20 @@ class Translation(object):
 
 /help for more details..
 
-© @chinnu_userbot"""
+© @chinnu_userbot",
+quote=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "Support Group", url="https://t.me/Ntbotgroup"
+                    ),
+                    InlineKeyboardButton("URL BOT", url="http://t.me/URLuploadKlbot"),
+                ],
+                [InlineKeyboardButton("My Owner", url="https://t.me/chinnu_userbot")],
+            ]
+        ),
+    )"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
