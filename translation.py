@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hai, Am URL Upload Bot..!
+    START_TEXT = """Hai, I'm URL Upload Bot..!
 
 <b>URL with Custofm Thumbnail Support..</b>
 
@@ -46,7 +46,7 @@ Expires on: 31/12/2021"""
    📽️Video  - Give File as video without Screenshots
    📁DFile  - Give File without Screenshots
    
-<b>👉 Thanks for support:</b> 👉 @Ntbotgroup""
+<b>👉 Thanks for support:</b> 👉 @Ntbotgroup"""
 
 --------
 Send /me to know current plan details
