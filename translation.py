@@ -17,8 +17,8 @@ URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "trying to download"
     UPLOAD_START = "trying to upload"
-    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, 📤upload."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.9GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Owner : @chinnu_userbot"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \no : @chinnu_userbot \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
@@ -36,22 +36,22 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: Free Cloned User
 Expires on: 31/12/2021"""
-    HELP_USER = """Hai am URL Uploader bot..
+    HELP_USER = """Hai I'm URL Uploader bot..
     
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
-   🎥SVideo - Give File as video with Screenshots
+   📽️SVideo - Give File as video with Screenshots
    📁DFile  - Give File with Screenshots
-   🎥Video  - Give File as video without Screenshots
+   📽️Video  - Give File as video without Screenshots
    📁DFile  - Give File without Screenshots
    
-<b>👉 Thanks for support:</b> 👉 t.me/uploadbot""
+<b>👉 Thanks for support:</b> 👉 @Ntbotgroup""
 
 --------
 Send /me to know current plan details
 
-© @Badboy2Badboy"""
+Bot update channel @NT_BOT_CHANNEL"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
@@ -77,6 +77,6 @@ You can use /rename command after receiving file to rename it with custom thumbn
     CANCEL_STR = "Process Cancelled"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
     FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 30 minutes.
-/upgrade or Try 1800 seconds later."""
+Free users only 1 request per 100 seconds.
+/upgrade or Try 100 seconds later."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
