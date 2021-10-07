@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """<b>Hai,</b> I'm URL Upload Bot...
+    START_TEXT = """Hai, I'm URL Upload Bot...
 
 <b>URL with Custofm Thumbnail Support</b>
 
@@ -7,20 +7,7 @@ class Translation(object):
 
 /help for more details..
 
-© @chinnu_userbot",
-quote=True,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "Support Group", url="https://t.me/Ntbotgroup"
-                    ),
-                    InlineKeyboardButton("URL BOT", url="http://t.me/URLuploadKlbot"),
-                ],
-                [InlineKeyboardButton("My Owner", url="https://t.me/chinnu_userbot")],
-            ]
-        ),
-    )"""
+© @chinnu_userbot"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
@@ -31,7 +18,7 @@ URL | filename | username | password"""
     DOWNLOAD_START = "📥 download"
     UPLOAD_START = "📤 upload"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.9GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @NT_BOT_CHANNEL"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @Ntbotgroup \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
