@@ -33,9 +33,10 @@ URL | filename | username | password"""
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
-Telegram ID: <code>{}</code>
-Plan name: Free Cloned User
-Expires on: 31/12/2021"""
+<b>Telegram ID:</b> <code>{}</code>
+<b>Plan name:</b> Free User
+<b>Expires on:</b> 31/12/2031
+<b>My master :</b> <a href="https://t.me/Jobin_chinnu">contact</a> """
     HELP_USER = """Hai I'm URL Uploader bot..
     
 1. Send url (Link|New Name with Extension).
