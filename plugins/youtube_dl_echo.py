@@ -49,7 +49,7 @@ async def echo(bot, update):
             await update.reply_text(
                 text="**Join My Updates Channel to use ME 😎 🤭**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join My Updates Channel To Use Me", url=f"https://t.me/NT_BOT_CHANNEL")]
               ])
             )
             return
@@ -238,7 +238,7 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "🎥SVideo",
+                    "📽️SVideo",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
@@ -252,7 +252,7 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "🎥video",
+                    "📽️video",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
