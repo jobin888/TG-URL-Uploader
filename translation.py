@@ -44,8 +44,8 @@ URL | filename | username | password"""
 3. Select the button.
    SVideo - Give File as video with Screenshots
    DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
+   Video  - Give File video
+   File   - Give File File
    
 <b>👉 Bot update channel :</b> 👉 <a href="https://t.me/NT_BOT_CHANNEL">Join</a>
 
