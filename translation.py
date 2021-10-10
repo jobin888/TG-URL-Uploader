@@ -6,17 +6,9 @@ class Translation(object):
 <b>Send - url | New Name.mkv</b>
 
 /help for more details...
-[
-                [
-                    InlineKeyboardButton(
-                        "Support Group", url="https://t.me/NT_BOT_CHANNEL"
-                    ),
-                    InlineKeyboardButton("URL BOT", url="http://t.me/URLuploadKlbot"),
-                ],
-                [InlineKeyboardButton("My Owner", url="https://t.me/chinnu_userbot")],
-            ]
-        ),
-    )"""
+<a href="https://t.me/NT_BOT_CHANNEL">Support Channel</a>
+<a href="https://t.me/Ntbotgroup">Support Group</a>
+<a href="https://t.me/chinnu_userbot">My Owner</a>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
