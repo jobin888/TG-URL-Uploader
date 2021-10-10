@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hai, I'm URL Upload Bot...
+    START_TEXT = """Hai {m.from_user.mention} I'm URL Upload Bot...
 
 <b>URL with Custofm Thumbnail Support</b>
 
