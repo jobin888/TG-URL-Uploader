@@ -5,9 +5,20 @@ class Translation(object):
 
 <b>Send - url | New Name.mkv</b>
 
-/help for more details..
-
-© @chinnu_userbot"""
+/help for more details.",
+quote=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "Support Group", url="https://t.me/NT_BOT_CHANNEL"
+                    ),
+                    InlineKeyboardButton("URL BOT", url="http://t.me/URLuploadKlbot"),
+                ],
+                [InlineKeyboardButton("My Owner", url="https://t.me/chinnu_userbot")],
+            ]
+        ),
+    )"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
