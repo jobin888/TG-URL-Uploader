@@ -45,7 +45,7 @@ async def echo(bot, update):
                await update.reply_text("🤭 Sorry Dude, You are **B A N N E D 🤣🤣🤣**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @NT_BOT_CHANNEL To Use Me")
+            #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
                 text="**Join My Updates Channel to use ME 😎**",
                 reply_markup=InlineKeyboardMarkup([
@@ -54,7 +54,7 @@ async def echo(bot, update):
             )
             return
         except Exception:
-            await update.reply_text("Contact my Support Channel <a href="https://t.me/NT_BOT_CHANNEL">JOIN</a>")
+            await update.reply_text("<b>Contact my Support Channel</b> <a href="https://t.me/NT_BOT_CHANNEL">JOIN</a>")
             return
     logger.info(update.from_user)
     url = update.text
