@@ -32,7 +32,7 @@ from helper_funcs.help_uploadbot import DownLoadFile
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 
-@pyrogram.Client.on_message(pyrogram.filters.regex(pattern=".*https.*"))
+@pyrogram.Client.on_message(pyrogram.filters.regex(pattern=".*http.*"))
 async def echo(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")
@@ -47,14 +47,14 @@ async def echo(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎**",
+                text="**Join My Updates Channel to use ME 😎 🤭**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/NT_BOT_CHANNEL")]
+                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
         except Exception:
-            await update.reply_text("<b>Contact my Support Channel</b> <a href="https://t.me/NT_BOT_CHANNEL">JOIN</a>")
+            await update.reply_text("Something Wrong. Contact my Support Group")
             return
     logger.info(update.from_user)
     url = update.text
@@ -233,9 +233,9 @@ async def echo(bot, update):
             format_id = response_json["format_id"]
             format_ext = response_json["ext"]
             cb_string_file = "{}|{}|{}".format(
-                "file", format_id, format_ext)
+                "📁file", format_id, format_ext)
             cb_string_video = "{}|{}|{}".format(
-                "video", format_id, format_ext)
+                "📽️video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
                     "📽️SVideo",
@@ -252,11 +252,11 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "📽️video",
+                    "video",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
-                    "📁file",
+                    "file",
                     callback_data=(cb_string_file).encode("UTF-8")
                 )
             ])
