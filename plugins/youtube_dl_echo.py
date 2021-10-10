@@ -32,7 +32,7 @@ from helper_funcs.help_uploadbot import DownLoadFile
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 
-@pyrogram.Client.on_message(pyrogram.filters.regex(pattern=".*http.*"))
+@pyrogram.Client.on_message(pyrogram.filters.regex(pattern=".*https.*"))
 async def echo(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")
@@ -45,16 +45,16 @@ async def echo(bot, update):
                await update.reply_text("🤭 Sorry Dude, You are **B A N N E D 🤣🤣🤣**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
+            #await update.reply_text(f"Join @NT_BOT_CHANNEL To Use Me")
             await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎 🤭**",
+                text="**Join My Updates Channel to use ME 😎**",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/NT_BOT_CHANNEL")]
               ])
             )
             return
         except Exception:
-            await update.reply_text("Something Wrong. Contact my Support Group")
+            await update.reply_text("Contact my Support Channel <a href="https://t.me/NT_BOT_CHANNEL">JOIN</a>")
             return
     logger.info(update.from_user)
     url = update.text
