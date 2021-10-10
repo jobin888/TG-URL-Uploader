@@ -5,10 +5,8 @@ class Translation(object):
 
 <b>Send - url | New Name.mkv</b>
 
-/help for more details.",
-quote=True,
-        reply_markup=InlineKeyboardMarkup(
-            [
+/help for more details...
+[
                 [
                     InlineKeyboardButton(
                         "Support Group", url="https://t.me/NT_BOT_CHANNEL"
@@ -18,7 +16,7 @@ quote=True,
                 [InlineKeyboardButton("My Owner", url="https://t.me/chinnu_userbot")],
             ]
         ),
-    )"""
+    )
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
