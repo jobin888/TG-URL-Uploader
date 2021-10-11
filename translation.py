@@ -6,9 +6,9 @@ class Translation(object):
 <b>Send - url | New Name.mkv</b>
 
 /help for more details...
-<a href="https://t.me/NT_BOT_CHANNEL">Support Channel</a>
-<a href="https://t.me/Ntbotgroup">Support Group</a>
-<a href="https://t.me/chinnu_userbot">My Owner</a>"""
+<b>Support Group :</b> @Ntbotgroup
+<b>Channel join :</b> @NT_BOT_CHANNEL
+<b>Owner :</b> @chinnu_userbot"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
@@ -16,8 +16,8 @@ class Translation(object):
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "📥 download"
-    UPLOAD_START = "📤 upload"
+    DOWNLOAD_START = "📥 downloading..."
+    UPLOAD_START = "📤 uploading..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.9GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @NT_BOT_CHANNEL"
@@ -30,7 +30,7 @@ URL | filename | username | password"""
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
+    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTube</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
@@ -43,10 +43,10 @@ URL | filename | username | password"""
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
-   SVideo - Give File as video with Screenshots
+   SVideo - Give video with Screenshots
    DFile  - Give File with Screenshots
-   Video  - Give File video
-   File   - Give File File
+   Video  - Give video
+   File   - Give File
    
 <b>👉 Bot update channel :</b> 👉 <a href="https://t.me/NT_BOT_CHANNEL">Join</a>
 
@@ -59,7 +59,7 @@ Send /me to know current plan details
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @Pooja_Hegdebot"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
