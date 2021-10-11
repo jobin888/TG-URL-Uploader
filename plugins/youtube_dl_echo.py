@@ -233,9 +233,9 @@ async def echo(bot, update):
             format_id = response_json["format_id"]
             format_ext = response_json["ext"]
             cb_string_file = "{}|{}|{}".format(
-                "📁file", format_id, format_ext)
+                "file", format_id, format_ext)
             cb_string_video = "{}|{}|{}".format(
-                "📽️video", format_id, format_ext)
+                "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
                     "📽️SVideo",
@@ -252,11 +252,11 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "video",
+                    "📽️video",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
-                    "file",
+                    "📁file",
                     callback_data=(cb_string_file).encode("UTF-8")
                 )
             ])
