@@ -41,7 +41,7 @@ async def help_user(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["me"]))
+@pyrogram.Client.on_message(pyrogram.filters.command(["plan"]))
 async def get_me_info(bot, update):
     # logger.info(update)
     chat_id = str(update.from_user.id)
