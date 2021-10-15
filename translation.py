@@ -51,7 +51,7 @@ URL | filename | username | password"""
 <b>👉 Bot update channel :</b> 👉 <a href="https://t.me/NT_BOT_CHANNEL">Join</a>
 
 --------
-Send /me to know current plan details
+Send /plan to know current plan details
 
 
 © @chinnu_userbot"""
