@@ -22,6 +22,7 @@ URL | filename | username | password"""
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.9GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @NT_BOT_CHANNEL"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """<b>Uploaded Successfully</b> 😍 
+
 <b>Join channel: @NT_BOT_CHANNEL</b>"""
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
