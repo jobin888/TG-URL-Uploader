@@ -125,7 +125,7 @@ async def ddl_call_back(bot, update):
                 message_id=update.message.message_id
             )
         else:
-            # get the correct width, height, and duration for videos greater than 10MB
+            # get the correct width, height, and duration for videos greater than 50MB
             # ref: message from @BotSupport
             width = 0
             height = 0
@@ -135,7 +135,7 @@ async def ddl_call_back(bot, update):
                 if metadata is not None:
                     if metadata.has("duration"):
                         duration = metadata.get('duration').seconds
-            # get the correct width, height, and duration for videos greater than 10MB
+            # get the correct width, height, and duration for videos greater than 50MB
             if os.path.exists(thumb_image_path):
                 width = 0
                 height = 0
@@ -268,8 +268,10 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
             chat_id,
             message_id,
             text="""**Download**
-URL: {}
-File Size: {}""".format(url, humanbytes(total_length))
+
+**url:** {}
+
+**file size:** {}""".format(url, humanbytes(total_length))
         )
         with open(file_name, "wb") as f_handle:
             while True:
