@@ -15,7 +15,7 @@ An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jobin888/TG-URL-Uploader/tree/master)
 
-**Watch our Video for Create own Bot** - 👉 https://youtu.be/QkAkSLBgoYw
+**Watch our Video for Create own Bot** - 👉 https://youtu.be/iKlE3lWdm14
 
 #### The Hard Way
 
