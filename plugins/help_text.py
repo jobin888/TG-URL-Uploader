@@ -55,7 +55,7 @@ async def get_me_info(bot, update):
     )
 
 
-@bot.on(events.NewMessage(pattern = r'/start$'))
+@pyrogram.Client.on_message(pyrogram.filters.command(["start"]))
 async def start(bot, update):
     # logger.info(update)
     await bot.send_message(
