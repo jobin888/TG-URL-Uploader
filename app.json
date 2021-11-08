@@ -15,6 +15,7 @@
     "uploader"
   ],
   "success_url": "https://telegram.dog/URLuploadKlbot",
+  "website": "https://github.com/SpEcHiDe/AnyDLBot",
   "repository": "https://github.com/NT-BOT/NT-UPLOAD-BOT",
   "env": {
     "WEBHOOK": {
