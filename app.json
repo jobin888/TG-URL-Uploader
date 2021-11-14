@@ -16,14 +16,14 @@
   ],
   "success_url": "https://telegram.dog/URLuploadKlbot",
   "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/NT-BOT/NT-UPLOAD-BOT",
+  "repository": "https://github.com/jobin888/TG-URL-Uploader",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "TG_BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
+    "NT_BOT_TOKEN": {
+      "description": "BotFather API, http://t.me/BotFather",
       "value": ""
     },
     "APP_ID": {
@@ -36,7 +36,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "1834908260"
+      "value": "800479134"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -50,7 +50,7 @@
     },
     "DEF_THUMB_NAIL_VID_S": {
       "description": "default thumbnail to be used in the videos. Incase, youtube-dl is unable to find a thumbnail.",
-      "value": "https://te.legra.ph/file/cd04b2abaf2d42982a79d.jpg",
+      "value": "https://te.legra.ph/file/74f173287abca80d71caf.jpg",
       "required": false
     },
     "CHUNK_SIZE": {
