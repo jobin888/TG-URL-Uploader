@@ -16,14 +16,14 @@
   ],
   "success_url": "https://telegram.dog/URLuploadKlbot",
   "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/jobin888/TG-URL-Uploader",
+  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "NT_BOT_TOKEN": {
-      "description": "BotFather API, http://t.me/BotFather",
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
       "value": ""
     },
     "APP_ID": {
@@ -36,7 +36,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "800479134"
+      "value": "1834908260"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -59,7 +59,7 @@
     },
     "HTTP_PROXY": {
       "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
-      "value": "http_proxy="182.74.243.47:3128" youtube-dl -F https://www.youtube.com/watch?v=P4z_NkQDLRI",
+      "value": "",
       "required": false
     }
   },
