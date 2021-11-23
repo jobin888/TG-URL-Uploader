@@ -1,9 +1,9 @@
 ## URL Uploader Bot
 ---
+Contact channel
 [![catuserbot logo](https://te.legra.ph/file/cd04b2abaf2d42982a79d.jpg)](https://t.me/NT_BOT_CHANNEL)
 **NT BOTS**
 
-👉 Upload as file from any HTTP link
 
 ### Installation
 
