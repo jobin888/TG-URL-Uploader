@@ -22,7 +22,7 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "NT_BOT_TOKEN": {
+    "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
     },
