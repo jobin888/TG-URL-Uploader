@@ -17,7 +17,7 @@ Contact channel
 
 ## Our Telegram Channel and Group
 
-* [Updates Channel](https://t.me/NT_BOT_CHANNEL)
+<a href="https://t.me/NT_BOT_CHANNEL"><img src="https://te.legra.ph/file/34eaf2e2a8b33088092dc.png" width=220px></a></p>
 * [Support group](https://t.me/Ntbotgroup)
 
 ## Credits, and Thanks
