@@ -6,7 +6,7 @@
 **NT BOTS**
 
 
-### Installation
+## Installation
 
 
 ### Deploy To Heroku
@@ -16,7 +16,7 @@
 
 **Watch our Video for Create own Bot** 👉 https://youtu.be/iKlE3lWdm14
 
-## Telegram Channel and Group 👇👇
+## Telegram Channel And Group 👇👇
 
 
 <a href="https://t.me/NT_BOT_CHANNEL"><img src="https://te.legra.ph/file/34eaf2e2a8b33088092dc.png" width=220px></a></p>
