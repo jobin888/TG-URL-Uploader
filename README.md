@@ -18,7 +18,7 @@
 
 ## Telegram Channel and Group 👇👇
 
-```
+
 <a href="https://t.me/NT_BOT_CHANNEL"><img src="https://te.legra.ph/file/34eaf2e2a8b33088092dc.png" width=220px></a></p>
 <a href="https://t.me/Ntbotgroup"><img src="https://te.legra.ph/file/26b9919ca73652f3e25fa.jpg" width=220px></a></p>
 
