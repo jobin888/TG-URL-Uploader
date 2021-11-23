@@ -21,5 +21,4 @@
 
 ## Credits, and Thanks
 
-#### LICENSE
-- GPLv3
+
