@@ -9,7 +9,7 @@
 ### Installation
 
 
-###Deploy To Heroku
+### Deploy To Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NT-BOT-TE/NT-UPLOAD-BOT/tree/master)
 
