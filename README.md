@@ -1,15 +1,14 @@
 ## URL Uploader Bot
----
-Contact channel
-[![catuserbot logo](https://te.legra.ph/file/cd04b2abaf2d42982a79d.jpg)](https://t.me/NT_BOT_CHANNEL)
+
+
+**Upload bot**
+[![catuserbot logo](https://te.legra.ph/file/4e7f8e1ce65b9a876ed50.jpg)](http://t.me/URLuploadKlbot)
 **NT BOTS**
 
 
 ### Installation
 
-#### The Easy Way
-
-#### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
+ **Deploy To Heroku**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NT-BOT-TE/NT-UPLOAD-BOT/tree/master)
 
