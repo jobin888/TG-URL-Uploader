@@ -14,7 +14,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NT-BOT-TE/NT-UPLOAD-BOT/tree/master)
 
 
-**Watch our Video for Create own Bot** - 👉 https://youtu.be/iKlE3lWdm14
+**Watch our Video for Create own Bot** 👉 https://youtu.be/iKlE3lWdm14
 
 ## Telegram Channel and Group 👇👇
 
