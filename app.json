@@ -51,7 +51,7 @@
     },
     "DEF_THUMB_NAIL_VID_S": {
       "description": "default thumbnail to be used in the videos. Incase, youtube-dl is unable to find a thumbnail.",
-      "value": "https://te.legra.ph/file/74f173287abca80d71caf.jpg",
+      "value": "",
       "required": false
     },
     "CHUNK_SIZE": {
