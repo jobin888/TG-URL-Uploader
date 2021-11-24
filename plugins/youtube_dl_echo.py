@@ -47,14 +47,14 @@ async def echo(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎 🤭**",
+                text="**Join My Updates Channel to use ME 😎 😌**",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
         except Exception:
-            await update.reply_text("**Join My Updates Channel To Use Me** @NT_BOT_CHANNEL")
+            await update.reply_text("**Join My Updates Channel To Use Me**")
             return
     logger.info(update.from_user)
     url = update.text
@@ -238,7 +238,7 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "📽️SVideo",
+                    "📹SVideo",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
@@ -252,7 +252,7 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "📽️video",
+                    "📹video",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
