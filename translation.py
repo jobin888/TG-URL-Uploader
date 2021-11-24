@@ -8,7 +8,7 @@ class Translation(object):
 /help for more details...
 <b>Support Group :</b> @Ntbotgroup
 <b>Channel join :</b> @NT_BOT_CHANNEL
-<b>Owner :</b> @chinnu_userbot"""
+<b>Owner :</b> @NT_BOT_ADMIN"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
@@ -38,8 +38,7 @@ URL | filename | username | password"""
 --------
 <b>Telegram ID:</b> <code>{}</code>
 <b>Plan name:</b> Free User
-<b>Expires on:</b> 31/12/2031
-<b>My master :</b> <a href="https://t.me/Jobin_chinnu">contact</a> """
+<b>Expires on:</b> 31/12/2031"""
     HELP_USER = """Hai I'm URL Uploader bot..
     
 1. Send url (Link|New Name with Extension).
@@ -56,12 +55,12 @@ URL | filename | username | password"""
 Send /plan to know current plan details
 
 
-© @chinnu_userbot"""
+© @NT_BOT_ADMIN"""
     MSG_TO_DOC_GET_LINK = "Msg to a Telegram media to get High Speed Direct Download Link"
     MSG_TO_DOC_FOR_C2V = "Msg to a Telegram media to convert"
     MSG_TO_DOC_FOR_SCSS = "Msg to a Telegram media to get screenshots"
     MSG_TO_DOC_FOR_RENAME_FILE = "Msg to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @Pooja_Hegdebot"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @NT_BOT_ADMIN"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
@@ -71,7 +70,7 @@ Send /plan to know current plan details
     MSG_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Msg /generatecustomthumbnail to a media album, to generate custom thumbail"
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
     INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
-    ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
+    ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /plan to remove this restriction."
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/FFMpegRoBot"
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
